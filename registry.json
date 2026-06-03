@@ -20,6 +20,36 @@
       "description": "A tileable, royalty-free fog of war texture.",
       "size": 83484,
       "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/fog-neutral.zip"
+    },
+    {
+      "id": "fog-watercolor",
+      "name": "Dark Watercolor",
+      "author": "rocketpixel / Freepik",
+      "type": "fog-pack",
+      "version": "1.0.0",
+      "description": "A dramatic black watercolor fog texture with strong contrast.",
+      "size": 37075,
+      "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/fog-watercolor.zip"
+    },
+    {
+      "id": "fog-dark-marble",
+      "name": "Dark Marble",
+      "author": "GarryKillian / Freepik",
+      "type": "fog-pack",
+      "version": "1.0.0",
+      "description": "A swirling dark marble fog texture with deep organic veins.",
+      "size": 40966,
+      "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/fog-dark-marble.zip"
+    },
+    {
+      "id": "fog-light-marble",
+      "name": "Light Marble",
+      "author": "rawpixel.com / Freepik",
+      "type": "fog-pack",
+      "version": "1.0.0",
+      "description": "A soft, airy white marble fog texture for light-themed maps.",
+      "size": 18495,
+      "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/fog-light-marble.zip"
     }
   ]
 }
