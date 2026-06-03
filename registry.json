@@ -7,17 +7,17 @@
       "author": "Bloated Blowfish",
       "type": "object-pack",
       "version": "1.0.0",
-      "description": "A classic dungeon tileset with 42 hand-drawn object icons including doors, stairs, furniture, traps, and dungeon features. Grid maps only.",
+      "description": "42 dungeon object icons in a timeless top-down style— doors, stairs, furniture, traps, and more.",
       "size": 131072,
       "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/classic-dungeons.zip"
     },
     {
-      "id": "fog-parchment",
-      "name": "Parchment Fog",
-      "author": "Windrose",
+      "id": "fog-neutral",
+      "name": "Neutral Fog",
+      "author": "Finding-The-Time (DeviantArt)",
       "type": "fog-pack",
       "version": "1.0.0",
-      "description": "A tileable parchment-style fog of war texture for an aged map look.",
+      "description": "A tileable, royalty-free fog of war texture.",
       "size": 83484,
       "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/fog-parchment.zip"
     }
