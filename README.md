@@ -14,7 +14,10 @@ Supplementary content packs for [Windrose MapDesigner](https://github.com/alas-p
 
 | Pack | Author | Description |
 |------|--------|-------------|
-| **Neutral Fog** | -- | A tileable fog of war texture. |
+| **Neutral Fog** | Finding-The-Time (DeviantArt) | A tileable, royalty-free fog of war texture. |
+| **Dark Watercolor** | rocketpixel / Freepik | A dramatic black watercolor fog texture with strong contrast. |
+| **Dark Marble** | GarryKillian / Freepik | A swirling dark marble fog texture with deep organic veins. |
+| **Light Marble** | rawpixel.com / Freepik | A soft, airy white marble fog texture for light-themed maps. |
 
 ## Installing Packs
 
