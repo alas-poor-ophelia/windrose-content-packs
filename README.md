@@ -8,13 +8,13 @@ Supplementary content packs for [Windrose MapDesigner](https://github.com/alas-p
 
 | Pack | Author | Description |
 |------|--------|-------------|
-| **Classic Dungeons** | Bloated Blowfish | 42 hand-drawn dungeon object icons — doors, stairs, furniture, traps, and more. Grid maps only. |
+| **Classic Dungeons** | Bloated Blowfish | 42 dungeon object icons in a timeless top-down style— doors, stairs, furniture, traps, and more. |
 
 ### Fog of War
 
 | Pack | Author | Description |
 |------|--------|-------------|
-| **Parchment Fog** | Windrose | A tileable parchment-style fog of war texture. |
+| **Neutral Fog** | -- | A tileable fog of war texture. |
 
 ## Installing Packs
 
