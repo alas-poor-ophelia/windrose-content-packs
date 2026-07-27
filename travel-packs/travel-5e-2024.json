@@ -1,0 +1,26 @@
+{
+  "format": "windrose-travel-pack",
+  "formatVersion": 1,
+  "pack": {
+    "id": "travel-5e-2024",
+    "name": "5e Overland Travel (2024)",
+    "description": "Travel paces from the 2024 revised rules (SRD 5.2.1, CC-BY-4.0) — the pace numbers match 2014, with terrain reframed as a pace cap. Good Road ×1.25 approximates the 2024 rule that a good road raises the group's maximum pace one step (Normal to Fast). Fast/Normal/Slow assume an 8-hour travel day. Forced march: CON save each hour past 8, DC 10 +1 per extra hour.",
+    "units": [],
+    "terrains": [
+      { "id": "terrain-5e24-difficult", "name": "Difficult Terrain", "multiplier": 0.5, "color": "#b0713d" },
+      { "id": "terrain-5e24-road", "name": "Good Road", "multiplier": 1.25, "color": "#a58d5f" }
+    ],
+    "modes": [
+      { "id": "mode-5e24-fast", "name": "Fast Pace", "distance": 30, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e24-normal", "name": "Normal Pace", "distance": 24, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e24-slow", "name": "Slow Pace", "distance": 18, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e24-mounted", "name": "Mounted (Riding Horse)", "distance": 48, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e24-sailing-ship", "name": "Sailing Ship", "distance": 2, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e24-galley", "name": "Galley", "distance": 4, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e24-longship", "name": "Longship", "distance": 3, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" }
+    ],
+    "allowances": [
+      { "id": "allow-5e24-day", "name": "Travel Day (8 hours)", "timeValue": 8, "timeUnit": "hours" }
+    ]
+  }
+}

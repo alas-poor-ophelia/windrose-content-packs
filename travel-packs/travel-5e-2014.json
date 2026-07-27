@@ -1,0 +1,28 @@
+{
+  "format": "windrose-travel-pack",
+  "formatVersion": 1,
+  "pack": {
+    "id": "travel-5e-2014",
+    "name": "5e Overland Travel (2014)",
+    "description": "Travel paces, mounted travel, and waterborne vehicle speeds from the 5.1 System Reference Document (CC-BY-4.0). Fast/Normal/Slow assume an 8-hour travel day; the mounted pace is derived from the riding horse's 60 ft speed; ship speeds are per hour and ships can sail around the clock. Forced march: each hour past 8, CON save DC 10 +1 per extra hour or gain exhaustion.",
+    "units": [],
+    "terrains": [
+      { "id": "terrain-5e14-difficult", "name": "Difficult Terrain", "multiplier": 0.5, "color": "#b0713d" }
+    ],
+    "modes": [
+      { "id": "mode-5e14-fast", "name": "Fast Pace", "distance": 30, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e14-normal", "name": "Normal Pace", "distance": 24, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e14-slow", "name": "Slow Pace", "distance": 18, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e14-mounted", "name": "Mounted (Riding Horse)", "distance": 48, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-5e14-rowboat", "name": "Rowboat", "distance": 1.5, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e14-keelboat", "name": "Keelboat", "distance": 1, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e14-sailing-ship", "name": "Sailing Ship", "distance": 2, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e14-warship", "name": "Warship", "distance": 2.5, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e14-longship", "name": "Longship", "distance": 3, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-5e14-galley", "name": "Galley", "distance": 4, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" }
+    ],
+    "allowances": [
+      { "id": "allow-5e14-day", "name": "Travel Day (8 hours)", "timeValue": 8, "timeUnit": "hours" }
+    ]
+  }
+}

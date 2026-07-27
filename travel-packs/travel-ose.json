@@ -1,0 +1,26 @@
+{
+  "format": "windrose-travel-pack",
+  "formatVersion": 1,
+  "pack": {
+    "id": "travel-ose",
+    "name": "OSE Wilderness Travel",
+    "description": "Overland movement from the Old-School Essentials SRD (B/X-style). Daily distance is base movement rate divided by five: 120' unencumbered = 24 miles/day, 90' = 18, 60' = 12. Maintained roads multiply travel by 1.5; broken lands, desert, forest, and hills travel at two-thirds; jungle, mountains, and swamp at half. Remember the daily getting-lost check by terrain.",
+    "units": [],
+    "terrains": [
+      { "id": "terrain-ose-road", "name": "Maintained Road", "multiplier": 1.5, "color": "#a58d5f" },
+      { "id": "terrain-ose-broken", "name": "Broken Lands", "multiplier": 0.667, "color": "#9c8464" },
+      { "id": "terrain-ose-desert", "name": "Desert", "multiplier": 0.667, "color": "#c2a36b" },
+      { "id": "terrain-ose-forest", "name": "Forest", "multiplier": 0.667, "color": "#2d5a27" },
+      { "id": "terrain-ose-hills", "name": "Hills", "multiplier": 0.667, "color": "#8a7444" },
+      { "id": "terrain-ose-jungle", "name": "Jungle", "multiplier": 0.5, "color": "#1e4d2b" },
+      { "id": "terrain-ose-mountains", "name": "Mountains", "multiplier": 0.5, "color": "#6e6e78" },
+      { "id": "terrain-ose-swamp", "name": "Swamp", "multiplier": 0.5, "color": "#4a5d3a" }
+    ],
+    "modes": [
+      { "id": "mode-ose-unencumbered", "name": "Unencumbered (120')", "distance": 24, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "days" },
+      { "id": "mode-ose-light", "name": "Lightly Encumbered (90')", "distance": 18, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "days" },
+      { "id": "mode-ose-heavy", "name": "Heavily Encumbered (60')", "distance": 12, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "days" }
+    ],
+    "allowances": []
+  }
+}

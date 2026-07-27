@@ -50,6 +50,56 @@
       "description": "A soft, airy white marble fog texture for light-themed maps.",
       "size": 18495,
       "downloadUrl": "https://github.com/alas-poor-ophelia/windrose-content-packs/releases/download/packs-v1.0.0/fog-light-marble.zip"
+    },
+    {
+      "id": "travel-5e-2014",
+      "name": "5e Overland Travel (2014)",
+      "author": "Alas, Poor Ophelia",
+      "type": "travel-pack",
+      "version": "1.0.0",
+      "description": "Fast/Normal/Slow paces, mounted travel, and ship speeds from the 5.1 SRD (CC-BY-4.0), with difficult terrain and an 8-hour travel day.",
+      "size": 2415,
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/alas-poor-ophelia/windrose-content-packs@main/travel-packs/travel-5e-2014.json"
+    },
+    {
+      "id": "travel-5e-2024",
+      "name": "5e Overland Travel (2024)",
+      "author": "Alas, Poor Ophelia",
+      "type": "travel-pack",
+      "version": "1.0.0",
+      "description": "Travel paces from the 2024 revised rules (SRD 5.2.1, CC-BY-4.0) with difficult terrain and a good-road bonus.",
+      "size": 2041,
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/alas-poor-ophelia/windrose-content-packs@main/travel-packs/travel-5e-2024.json"
+    },
+    {
+      "id": "travel-pf1e",
+      "name": "PF1e Overland Travel",
+      "author": "Alas, Poor Ophelia",
+      "type": "travel-pack",
+      "version": "1.0.0",
+      "description": "Overland movement with the full nine-terrain trackless table, roads and highways, mounts, and hustle (OGL).",
+      "size": 2650,
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/alas-poor-ophelia/windrose-content-packs@main/travel-packs/travel-pf1e.json"
+    },
+    {
+      "id": "travel-pf2e",
+      "name": "PF2e Travel & Hexploration",
+      "author": "Alas, Poor Ophelia",
+      "type": "travel-pack",
+      "version": "1.0.0",
+      "description": "Travel speeds, difficult terrain tiers, and 12-mile hexploration hexes as a native map unit (ORC).",
+      "size": 1988,
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/alas-poor-ophelia/windrose-content-packs@main/travel-packs/travel-pf2e.json"
+    },
+    {
+      "id": "travel-ose",
+      "name": "OSE Wilderness Travel",
+      "author": "Alas, Poor Ophelia",
+      "type": "travel-pack",
+      "version": "1.0.0",
+      "description": "B/X-style daily overland movement by encumbrance with terrain multipliers and maintained roads (OSE SRD).",
+      "size": 1898,
+      "downloadUrl": "https://cdn.jsdelivr.net/gh/alas-poor-ophelia/windrose-content-packs@main/travel-packs/travel-ose.json"
     }
   ]
 }

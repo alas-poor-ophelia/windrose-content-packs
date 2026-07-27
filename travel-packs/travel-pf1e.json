@@ -1,0 +1,33 @@
+{
+  "format": "windrose-travel-pack",
+  "formatVersion": 1,
+  "pack": {
+    "id": "travel-pf1e",
+    "name": "PF1e Overland Travel",
+    "description": "Overland movement from the Pathfinder First Edition Core Rulebook (OGL). On-foot paces assume an 8-hour travel day (Speed 30 = 24 miles/day). Wilderness terrains carry their trackless multipliers — when following a road or trail through them, use the Road or Trail terrain instead (Highway for major arteries; Mountains stay at 0.75 even on a highway). Forced march: CON check per hour past 8, DC 10 +2 per extra hour, 1d6 nonlethal and fatigue on failure.",
+    "units": [],
+    "terrains": [
+      { "id": "terrain-pf1-highway", "name": "Highway", "multiplier": 1, "color": "#c4a57b" },
+      { "id": "terrain-pf1-road", "name": "Road or Trail", "multiplier": 0.75, "color": "#a58d5f" },
+      { "id": "terrain-pf1-plains", "name": "Plains", "multiplier": 0.75, "color": "#a5b05c" },
+      { "id": "terrain-pf1-moor", "name": "Moor", "multiplier": 0.75, "color": "#5c6e5a" },
+      { "id": "terrain-pf1-tundra", "name": "Tundra", "multiplier": 0.75, "color": "#b8c4c9" },
+      { "id": "terrain-pf1-forest", "name": "Forest", "multiplier": 0.5, "color": "#2d5a27" },
+      { "id": "terrain-pf1-hills", "name": "Hills", "multiplier": 0.5, "color": "#8a7444" },
+      { "id": "terrain-pf1-desert", "name": "Desert", "multiplier": 0.5, "color": "#c2a36b" },
+      { "id": "terrain-pf1-mountains", "name": "Mountains", "multiplier": 0.5, "color": "#6e6e78" },
+      { "id": "terrain-pf1-swamp", "name": "Swamp", "multiplier": 0.5, "color": "#4a5d3a" },
+      { "id": "terrain-pf1-jungle", "name": "Jungle", "multiplier": 0.25, "color": "#1e4d2b" }
+    ],
+    "modes": [
+      { "id": "mode-pf1-foot30", "name": "On Foot (Speed 30)", "distance": 24, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-pf1-foot20", "name": "On Foot (Speed 20)", "distance": 16, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-pf1-hustle", "name": "Hustle (Speed 30)", "distance": 6, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 1, "timeUnit": "hours" },
+      { "id": "mode-pf1-horse", "name": "Horse", "distance": 40, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-pf1-pony", "name": "Pony", "distance": 32, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" }
+    ],
+    "allowances": [
+      { "id": "allow-pf1-day", "name": "Travel Day (8 hours)", "timeValue": 8, "timeUnit": "hours" }
+    ]
+  }
+}

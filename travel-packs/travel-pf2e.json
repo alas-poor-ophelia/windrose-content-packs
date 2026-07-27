@@ -1,0 +1,26 @@
+{
+  "format": "windrose-travel-pack",
+  "formatVersion": 1,
+  "pack": {
+    "id": "travel-pf2e",
+    "name": "PF2e Travel & Hexploration",
+    "description": "Travel speeds from the Pathfinder Second Edition Core Rulebook and hexploration from the Gamemastery Guide (ORC). On-foot paces assume 8 hours of travel (Speed 25 = 20 miles/day). The Hex unit is the 12-mile hexploration hex; hexploration paces reflect Travel activities per day (Speed 30-40 = 2, Speed 15-25 = 1). Difficult terrain halves travel; greater difficult terrain cuts it to a third; roads reduce a hex's terrain difficulty one step.",
+    "units": [
+      { "id": "unit-pf2-hex", "name": "Hex", "abbreviation": "hex", "factor": 12, "baseUnit": "mi" }
+    ],
+    "terrains": [
+      { "id": "terrain-pf2-difficult", "name": "Difficult Terrain", "multiplier": 0.5, "color": "#b0713d" },
+      { "id": "terrain-pf2-greater", "name": "Greater Difficult Terrain", "multiplier": 0.33, "color": "#8c4a2f" }
+    ],
+    "modes": [
+      { "id": "mode-pf2-foot25", "name": "On Foot (Speed 25)", "distance": 20, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-pf2-foot30", "name": "On Foot (Speed 30)", "distance": 24, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-pf2-mounted", "name": "Mounted (Speed 40)", "distance": 32, "unit": { "type": "standard", "unit": "mi" }, "timeValue": 8, "timeUnit": "hours" },
+      { "id": "mode-pf2-hexplore2", "name": "Hexploration (Speed 30+)", "distance": 2, "unit": { "type": "custom", "unitId": "unit-pf2-hex" }, "timeValue": 1, "timeUnit": "days" },
+      { "id": "mode-pf2-hexplore1", "name": "Hexploration (Speed 15-25)", "distance": 1, "unit": { "type": "custom", "unitId": "unit-pf2-hex" }, "timeValue": 1, "timeUnit": "days" }
+    ],
+    "allowances": [
+      { "id": "allow-pf2-day", "name": "Travel Day (8 hours)", "timeValue": 8, "timeUnit": "hours" }
+    ]
+  }
+}
